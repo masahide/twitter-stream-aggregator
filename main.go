@@ -13,9 +13,7 @@ import (
 )
 
 const (
-	timelineEndpoint  = `https://api.twitter.com/1.1/statuses/user_timeline.json`
 	streamingEndpoint = `https://stream.twitter.com/1.1/statuses/filter.json`
-	verifyEndpoint    = `https://api.twitter.com/1.1/account/verify_credentials.json`
 )
 
 type TwitterConfig struct {
